@@ -4,8 +4,10 @@
     justify-content: space-between;
     align-items: center;
  }
- .navbar.logo{
-    width:150px;
+ .navbar .logo{
+    /* width:150px; */
+    border: 0.5px solid green;
+    border-radius: 10px;
  }
  .navbar-menu{
     display: flex;
@@ -72,7 +74,7 @@
 
  @media (max-width:900px){
    .navbar .logo{
-      width: 120px;
+      width: 60px;
    }
    .navbar-menu{
       gap: 15px;

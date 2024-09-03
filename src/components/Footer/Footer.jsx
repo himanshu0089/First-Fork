@@ -1,12 +1,13 @@
 import React from "react";
 import "./Footer.css";
 import { assets } from "../../assets/assets";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+         <Link to="/cart"><img src={assets.fork} alt="" /></Link> 
           <p>
             We aim to provide the best food and services and with friendly
             enviroment to catch up the best memories for you
